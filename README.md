@@ -3,13 +3,13 @@
 
 ### Contents
 
-#1.-Introduction
-#2.-Train-Test-Split
-#3.-Data-Preprocessing
-#4.-Feature-Engineering
-#5.-Baseline-Modeling
-#Acknowledgements
-#References
+#### 1.-Introduction
+#### 2.-Train-Test-Split
+#### 3.-Data-Preprocessing
+#### 4.-Feature-Engineering
+#### 5.-Baseline-Modeling
+#### Acknowledgements
+#### References
 
 ## Point of Interest
 
