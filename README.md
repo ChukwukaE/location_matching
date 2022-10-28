@@ -5,12 +5,12 @@
 
 #### 1.-Introduction
 #### 2.-Train-Test-Split
-#### 3.-Data-Preprocessing
-#### 4.-Feature-Engineering
-#### 5.-Baseline-Modeling
-#### Acknowledgements
-#### References
+#### 3.-Data-Manipulation-and-Pre-processing
+#### 4.-Modelling-and-Feature-Engineering
+#### Conclusion
 
+
+# Introduction
 ## Point of Interest
 
 A point of interest (POI) is a specific point location that someone may find useful or interesting. An example is a point on the Earth representing the location of the Eiffel Tower, or a point on Mars representing the location of its highest mountain, [Olympus Mons](https://en.wikipedia.org/wiki/Olympus_Mons). Most consumers use the term when referring to hotels, campsites, fuel stations or any other categories used in modern automotive navigation systems. Users of a mobile device can be provided with geolocation and time aware POI service that recommends geolocations nearby and with a temporal relevance (e.g. POI to special services in a ski resort are available only in winter). The notion of POI is widely used in cartography, especially in electronic variants including GIS, and GPS navigation software.
@@ -40,6 +40,4 @@ The training data comprises eleven attribute fields for over one million place e
 
 
 ## Conclusion
-- **XGBoost**, **AdaBoost** (*boosting algorithms*) and **KNN** perform relatively well.
-
-- **Decision Tree**, **Random Forest** (*tree-based algorithms*) and **Naive Bayes** do not work well, compared to the other models. However, these models actually do a better job than the other models in the `0`-class, i.e. the class of pairs for which the true value of `match` is `False` (or `0.0` when converted to float).
+- **XGBoost**, (*boosting algorithm*) performed slightly better than **KNN** even after hyperparameter Tuning
